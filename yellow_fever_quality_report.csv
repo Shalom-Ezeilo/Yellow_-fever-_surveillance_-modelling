@@ -1,0 +1,156 @@
+column,data_type,missing_count,missing_percent,unique_values
+Disease variant,float64,5000,100.0,0
+Date of discharge or transfer (dd/MM/yyyy),datetime64[s],5000,100.0,0
+Facility name & description,float64,5000,100.0,0
+Vaccine name details,float64,5000,100.0,0
+Trimester,float64,4877,97.54,3
+Postpartum,string,4837,96.74,3
+Date of death (dd/MM/yyyy),datetime64[us],4704,94.08,274
+Burial of case,string,4704,94.08,3
+Vaccine name,string,3625,72.5,1
+ATC code,string,3625,72.5,1
+Date of visit or admission (dd/MM/yyyy),datetime64[us],2599,51.98,1338
+Pregnancy,string,2509,50.18,2
+"Bleeding from vagina, other than menstruation",string,2509,50.18,3
+House number,float64,2508,50.16,249
+Comments,string,2502,50.04,2
+Number of doses,float64,2153,43.06,3
+External ID,string,1774,35.48,3221
+External Token,string,1512,30.24,3488
+investigation_delay_days,float64,1411,28.22,8
+Latest sample laboratory,string,1317,26.34,3
+Date of investigation (dd/MM/yyyy),datetime64[us],1299,25.98,1572
+Owner of phone,string,1250,25.0,3
+Place of initial detection,string,1006,20.12,4
+Street,string,993,19.86,4
+Education,string,991,19.82,4
+lab_result_binary,float64,956,19.12,2
+Latest sample uuid,string,927,18.54,4073
+Latest sample date time (dd/MM/yyyy),datetime64[us],895,17.9,1633
+Weight (kg),float64,389,7.78,785
+Date of outcome (dd/MM/yyyy),datetime64[us],319,6.38,1693
+reporting_delay_days,float64,162,3.24,15
+Date of report (dd/MM/yyyy),datetime64[us],162,3.24,1692
+Case ID,string,120,2.4,4880
+Person ID,string,100,2.0,4900
+Current body temperature in Â° C,Float64,80,1.6,71
+Fever,string,78,1.56,5
+Jaundice,string,74,1.48,4
+Age_group_from_age,category,51,1.02,6
+Age,float64,51,1.02,89
+Laboratory diagnostic confirmation,string,41,0.82,8
+age_from_dates,Float64,25,0.5,94
+Vaccination status,string,22,0.44,6
+Age group,string,20,0.4,9
+Age_clean,Float64,17,0.34,93
+Ward,string,0,0.0,10
+LGA,string,0,0.0,32
+State,string,0,0.0,12
+Responsible ward,string,0,0.0,10
+Responsible LGA,string,0,0.0,31
+Responsible state,string,0,0.0,12
+Date of birth (year / month / day),datetime64[us],0,0.0,4488
+Sex,string,0,0.0,2
+Last name,string,0,0.0,10
+EPID number,string,0,0.0,5000
+Case SN,int64,0,0.0,5000
+Disease,string,0,0.0,1
+Internal Token,string,0,0.0,5000
+Disease name,string,0,0.0,4
+First name,string,0,0.0,10
+Facility type,string,0,0.0,6
+Address state,string,0,0.0,6
+Address LGA,string,0,0.0,31
+Address ward,string,0,0.0,10
+City,string,0,0.0,31
+Associated with outbreak?,string,0,0.0,3
+Left against medical advice,string,0,0.0,3
+Present condition of person,string,0,0.0,4
+Classification of source case,string,0,0.0,4
+Visited a burial,string,0,0.0,3
+Contacts with source case known,string,0,0.0,3
+Traveled outside of LGA,string,0,0.0,3
+Type of occupation,string,0,0.0,6
+Vaccination info source,string,0,0.0,4
+Travel history,string,0,0.0,4
+Staff of armed forces,string,0,0.0,3
+Symptomatic,string,0,0.0,2
+Source of body temperature,string,0,0.0,3
+First symptom,string,0,0.0,5
+Date of symptom onset (dd/MM/yyyy),datetime64[us],0,0.0,1715
+Admitted as inpatient?,string,0,0.0,3
+Sequelae,string,0,0.0,3
+Epidemiological confirmation,string,0,0.0,3
+Outcome of case,string,0,0.0,4
+Quarantine period reduced?,string,0,0.0,3
+Quarantine period extended?,string,0,0.0,3
+Help needed in quarantine?,string,0,0.0,3
+Quarantine,string,0,0.0,3
+Investigation status,string,0,0.0,4
+Clinical confirmation,string,0,0.0,3
+Case classification,string,0,0.0,4
+Facility,string,0,0.0,6
+Confused or disoriented,string,0,0.0,2
+Chills or sweats,string,0,0.0,3
+Chest pain,string,0,0.0,3
+Bloody or black stools (melena),string,0,0.0,2
+Blood in urine (hematuria),string,0,0.0,2
+Blood in stool,string,0,0.0,2
+Blackening and death of tissue in extremities,string,0,0.0,3
+Is the patient bedridden?,string,0,0.0,3
+Abdominal pain,string,0,0.0,2
+Backache,string,0,0.0,3
+Anorexia/loss of appetite,string,0,0.0,3
+Altered level of consciousness,string,0,0.0,2
+Dehydration,string,0,0.0,3
+Diarrhea,string,0,0.0,2
+Conjunctivitis (red eyes),string,0,0.0,3
+Cough,string,0,0.0,2
+Malaise,string,0,0.0,3
+Joint pain or arthritis,string,0,0.0,3
+Muscle pain,string,0,0.0,2
+Nausea,string,0,0.0,2
+Vomiting,string,0,0.0,2
+Shock (Systolic bp <90),string,0,0.0,2
+Nose bleed (epistaxis),string,0,0.0,2
+Other hemorrhagic symptoms,string,0,0.0,2
+Pain behind eyes/Sensitivity to light,string,0,0.0,3
+Difficulty breathing/Dyspnea,string,0,0.0,3
+Bleeding of the gums,string,0,0.0,2
+Fatigue/general weakness,string,0,0.0,2
+Headache,string,0,0.0,2
+Hemorrhagic syndrome,string,0,0.0,2
+Coughing up blood (haemoptysis),string,0,0.0,3
+Dark Urine,string,0,0.0,2
+Palpable liver,string,0,0.0,3
+Palpable spleen,string,0,0.0,3
+Runny nose,string,0,0.0,3
+Convulsions or Seizures,string,0,0.0,3
+Rash that itches,string,0,0.0,3
+Rapid breathing,string,0,0.0,3
+Sepsis,string,0,0.0,3
+Thrombocytopenia,string,0,0.0,3
+Information provided by physician,string,0,0.0,3
+Verification of different pathogen,string,0,0.0,3
+Latest sample final laboratory result,string,0,0.0,6
+Number of events,int64,0,0.0,5
+Latest event ID,string,0,0.0,5000
+Latest event status,string,0,0.0,3
+Latest event title,string,0,0.0,4
+Negative test result for disease,string,0,0.0,2
+flag_death_before_onset,bool,0,0.0,1
+flag_sample_before_onset,bool,0,0.0,1
+flag_investigation_before_report,bool,0,0.0,1
+flag_report_before_onset,bool,0,0.0,1
+Reporting user roles,string,0,0.0,3
+Reporting user,string,0,0.0,3
+onset_year,int32,0,0.0,6
+onset_month,int32,0,0.0,12
+flag_invalid_age,bool,0,0.0,2
+Age_original,int64,0,0.0,92
+onset_day_of_week,string,0,0.0,7
+onset_quarter,int32,0,0.0,4
+flag_age_disagreement,boolean,0,0.0,1
+flag_suspicious_weight,bool,0,0.0,1
+flag_suspicious_temperature,boolean,0,0.0,2
+flag_invalid_doses,bool,0,0.0,1

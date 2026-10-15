@@ -1,0 +1,40 @@
+{
+  "model_name": "K-Nearest Neighbours",
+  "target_column": "Latest sample final laboratory result",
+  "target_mapping": {
+    "Positive": 1,
+    "Negative": 0
+  },
+  "selected_features": [
+    "Age_clean",
+    "Sex",
+    "State",
+    "LGA",
+    "Age group",
+    "Vaccination status",
+    "Symptomatic",
+    "First symptom",
+    "Fever",
+    "Jaundice",
+    "Headache",
+    "Vomiting",
+    "Nausea",
+    "Fatigue/general weakness",
+    "Muscle pain",
+    "Joint pain or arthritis",
+    "Bleeding of the gums",
+    "Blood in stool",
+    "Blood in urine (hematuria)",
+    "Diarrhea",
+    "Abdominal pain",
+    "Chills or sweats",
+    "Dehydration",
+    "Conjunctivitis (red eyes)",
+    "onset_month",
+    "onset_quarter"
+  ],
+  "test_size": 0.2,
+  "random_state": 42,
+  "dataset_type": "Simulated educational dataset",
+  "intended_task": "Classify laboratory positivity among reported cases"
+}
